@@ -4,6 +4,9 @@
 #        maxNum: The max number to print to
 #        f1, w1: First mulitple to replace, word to replace multiple with
 #        f2, w2: Second multiple to replace, word to replace multiple with
+#
+#        This program will print integers starting from 1 to maxNum replacing the numbers
+#        that are multiples of f1 with w1 and multiples of f2 with w2
 
 maxNum = int( input("Enter the max number: "))
 f1, w1 = input("Enter a factor and word: ").split(' ')
